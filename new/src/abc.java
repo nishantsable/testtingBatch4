@@ -23,7 +23,7 @@ public class abc {
 		Select s =new Select(driver.findElement(By.xpath(".//*[@id='Select1']")));
 		
 		s.selectByVisibleText("Pune");
-		//s.selectByValue("ADI");
+		s.selectByValue("ADI");
 		s.selectByIndex(1);
 		
 		
